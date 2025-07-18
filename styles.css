@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  color: #2e372e;
+  background: url('трава.jpg') center center / cover no-repeat fixed;
+  padding: 5vh 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-color: rgba(255,255,255,0.9);
+  max-width: 640px;
+  margin: 0 auto;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.invitation {
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6c7b6c;
+  margin-bottom: 0.3rem;
+}
+
+.names {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+  color: #3d5a3d;
+}
+
+.and {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.5rem;
+  margin: 0 .4rem;
+}
+
+.photo img {
+  max-width: 280px;
+  width: 100%;
+  border-radius: 6px;
+  margin: 1.5rem auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.invitation-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.emphasis {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.3rem;
+  display: block;
+  color: #3d5a3d;
+  margin-top: .5rem;
+}
+
+.telegram-button {
+  display: inline-block;
+  padding: .8rem 1.6rem;
+  background-color: #3d5a3d;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 25px;
+  transition: background .3s;
+}
+
+.telegram-button:hover {
+  background-color: #2e422e;
+}
+
+@media (max-width: 600px) {
+  .names {font-size: 2rem;}
+  .photo img {width: 90%;}
+  .telegram-button {font-size: .9rem; padding: .6rem 1.2rem;}
+}
